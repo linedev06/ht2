@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Livros</title>
+ 
+     
+</head>
+<body>
+    <nav class="navbar">
+        <span class="logo">Livros</span>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <ul id="menu">
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Bem-vindo à nossa livraria</h1>
+        <p>Aqui você encontrará uma variedade de livros para explorar.</p>
+    </div>
+    <div class="container">
+        <div class="book">
+            <a href="https://etecspgov-my.sharepoint.com/personal/vitor_felismino_etec_sp_gov_br/Documents/THE%20WAR%20OF%20N%C3%9CR%20-%20THE%20H%C3%96RGR%E2%80%99S%20LEAGUE.pdf">
+                <img src="img/Cópia de Cópia de Cópia de Capa de Livro de Suspense.jpg" alt="Livro 1">
+            </a>
+            <p>Star Of Rebellion II: Mordex o herdeiro das sombras</p>
+        </div>
+        <hr>
+        <div class="book">
+            <a href="https://etecspgov-my.sharepoint.com/personal/vitor_felismino_etec_sp_gov_br/Documents/Iavann%C3%A4myr%20.pdf">
+                <img src="img/Cópia de Cópia de Cópia de Cópia de Capa de Livro de Suspense.jpg" alt="Livro 2">
+            </a>
+            <p>Star Of Rebellion III: O julgamento final</p>
+        </div>
+        <hr>
+        <div class="book">
+            <a href="#">
+                <img src="img/Cópia de Capa de Livro de Suspense (3).png" alt="Livro 3">
+            </a>
+            <p>Star Of Rebellion IV: Oblivion</p>
+        </div>
+        <hr>
+        <div class="book">
+            <a href="#">
+                <img src="img/Capa de Livro de Suspense (5).png" alt="Livro 4">
+            </a>
+            <p>Título do Livro 4</p>
+        </div>
+    </div>
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById("menu");
+            if (menu.style.display === "block") {
+                menu.style.display = "none";
+            } else {
+                menu.style.display = "block";
+            }
+        }
+    </script>
+</body>
+</html>
